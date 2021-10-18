@@ -22,13 +22,14 @@ main{
     display: inline-block;
     position: relative;
 }
+.left-img{
+    height: 100%;
+}
+
 #img1{
-    position: absolute;
     max-width: 100%;
     left: 0;
     top: 0;
-    z-index: 2;
-    
 }
 
 #img1-hover{
@@ -36,10 +37,11 @@ main{
     position: absolute;
     left: 0;
     top: 0;
+    display:none;
     
 }
-#img1:hover{
-    display:none;
+.left-img:hover {
+    display: block;
 }
 .heart{
     width: 30px;
@@ -52,6 +54,21 @@ main{
     z-index: 3;
     text-align: center;
     padding-top: 2%;
+}
+.sale{
+    width: 30px;
+    height: 20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    bottom: 2vh;
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 2% 2%;
+
+
 }
 
 
