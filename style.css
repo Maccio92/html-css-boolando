@@ -8,13 +8,15 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
 }
-body{
+body, .img{
     width: 100%;
 }
 main{
     width: 80%;
     margin: 1vh auto;
 }
+
+/* Section */
 section{
     margin-bottom: 5%;
 }
@@ -27,10 +29,8 @@ section{
 .col:first-child{
     margin: 0;
 }
-.img{
-    height: 100%;
-}
 
+/* Immagini */
 #img1{
     max-width: 100%;
     left: 0;
@@ -48,6 +48,8 @@ section{
 .img:hover #img1-hover {
     display: block;
 }
+
+/* Elementi Sovrapposti */
 .heart{
     width: 30px;
     height: 30px;
@@ -68,7 +70,7 @@ section{
     position: absolute;
     z-index: 3;
     left: 0;
-    bottom: 12vh;
+    bottom: 80px;
     font-size: 0.7em;
     padding: 2%;
     font-weight: 500;
@@ -82,7 +84,7 @@ section{
     position: absolute;
     z-index: 3;
     left: 40px;
-    bottom: 12vh;
+    bottom: 80px;
     font-size: 0.7em;
     padding: 2%;
     font-weight: 500;
@@ -92,6 +94,7 @@ section{
     left:0;
 }
 
+/* Didascalia */
 .caption{
     margin-top: 3%;
 }
@@ -110,6 +113,5 @@ li{
 .sale-price{
     font-size: 0.8em;
     color: red; 
-    font-weight: 700;
-  
+    font-weight: 700;  
 }
