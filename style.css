@@ -22,8 +22,12 @@ main{
     width: 30%; 
     display: inline-block;
     position: relative;
+    margin-left: 15px;
 }
-.left-img{
+.col:first-child{
+    margin: 0;
+}
+.img{
     height: 100%;
 }
 
@@ -41,7 +45,7 @@ main{
     display:none;
     
 }
-.left-img:hover #img1-hover {
+.img:hover #img1-hover {
     display: block;
 }
 .heart{
@@ -57,31 +61,53 @@ main{
     padding-top: 2%;
 }
 .sale{
-    width: 3vw;
-    height: 4vh;
+    width: 35px;
+    height: 25px;
     color: white;
     background-color: red;
     position: absolute;
     z-index: 3;
     left: 0;
     bottom: 2vh;
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding: 2%;
     font-weight: 500;
+    text-align: center;
 }
 .eco{
-    width: 7vw;
-    height: 4vh;
+    width: 70px;
+    height: 25px;
     color: white;
     background-color: #00875a;
     position: absolute;
     z-index: 3;
-    left: 35px;
+    left: 40px;
     bottom: 2vh;
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding: 2%;
     font-weight: 500;
     text-align: center;
 }
 
-
+.caption{
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+li{
+    line-height: 1.3em;
+    list-style-type: none;
+}
+.brand{
+    font-size: 0.7em;
+}
+.product{
+    font-size: 1em;
+    font-weight: 700;
+}
+.sale-price{
+    font-size: 0.9em;
+    color: red; 
+    font-weight: 500;
+  
+}
